@@ -32,6 +32,8 @@ module.exports = {
     'no-console': 1,
     'no-unexpected-multiline': 'warn',
     'prettier/prettier': ['error'],
+    "react/jsx-uses-vars":2,
+    "react/prefer-stateless-function":0
   },
   settings: {
     react: {
@@ -45,3 +47,4 @@ module.exports = {
     es6: true,
   },
 };
+

@@ -1,5 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default function Header() {
-  return <div>asasda</div>;
+export class Header extends Component {
+  render() {
+    return <div>asas</div>;
+  }
 }
+
+export default Header;
